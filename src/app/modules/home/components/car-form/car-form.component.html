@@ -1,0 +1,27 @@
+<div>
+  <h2>Add/Edit Car</h2>
+  <form>
+    <div>
+      <label>Brand:</label>
+      <input [(ngModel)]="car.brand" name="brand" type="text" required>
+    </div>
+    <div>
+      <label>Plate:</label>
+      <input [(ngModel)]="car.plate" name="plate" type="text" required>
+    </div>
+    <div>
+      <label>Year:</label>
+      <input [(ngModel)]="car.year" name="year" type="number" required>
+    </div>
+    <div>
+      <label>Type:</label>
+      <select [(ngModel)]="car.type" name="type" required>
+        <option *ngFor="let carType of carTypes" [value]="carType">{{ carType }}</option>
+      </select>
+    </div>
+    <div>
+      <button type="button" (click)="onSave()">{{ car.brand ? 'Edit' : 'Add' }} Car</button>
+    </div>
+  </form>
+</div>
+

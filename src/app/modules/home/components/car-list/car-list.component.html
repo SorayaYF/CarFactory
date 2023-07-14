@@ -1,0 +1,24 @@
+<div>
+  <h2>Car List</h2>
+  <div>
+    <div>
+      <div>Brand</div>
+      <div>Plate</div>
+      <div>Year</div>
+      <div>Type</div>
+      <div>Actions</div>
+    </div>
+    <div *ngFor="let car of cars; let i = index">
+      <div>{{ car.brand }}</div>
+      <div>{{ car.plate }}</div>
+      <div>{{ car.year }}</div>
+      <div>{{ car.type }}</div>
+      <div>
+        <button (click)="onEditCar(car)">Edit</button>
+        <button (click)="onDeleteCar(i)">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+

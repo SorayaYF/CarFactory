@@ -1,0 +1,4 @@
+<div>
+  <app-car-form (saveCar)="onSaveCar($event)"></app-car-form>
+  <app-car-list [cars]="cars" (editCar)="onEditCar($event)" (deleteCar)="onDeleteCar($event)"></app-car-list>
+</div>
