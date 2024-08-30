@@ -1,27 +1,57 @@
-# CarFactory
+# 🚗 CarFactory
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Development server
+**CarFactory** é uma aplicação desenvolvida com Angular para gerenciar uma lista de carros. A aplicação permite adicionar novos carros, visualizar uma lista de carros e editar ou excluir carros existentes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 📚 Descrição
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O **CarFactory** oferece as seguintes funcionalidades:
 
-## Build
+- **Adicionar Carro**: Interface para inserir novas informações de carros, incluindo marca, modelo e ano.
+- **Listagem de Carros**: Exibe uma lista de todos os carros adicionados.
+- **Editar Carro**: Permite modificar as informações de um carro existente.
+- **Excluir Carro**: Remove um carro da lista.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🚀 Como Executar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para executar a aplicação **CarFactory** em sua máquina, siga os passos abaixo:
 
-## Running end-to-end tests
+1. **Clone o repositório:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    ```bash
+    git clone https://github.com/SeuUsuario/CarFactory.git
+    cd CarFactory
+    ```
 
-## Further help
+2. **Instale as dependências:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    ```bash
+    npm install
+    ```
+
+3. **Inicie o servidor de desenvolvimento:**
+
+    ```bash
+    ng serve
+    ```
+
+4. **Abra a aplicação em um navegador:**
+
+    Navegue até `http://localhost:4200` para acessar a aplicação.
+
+---
+
+## 🧩 Funcionalidades
+
+- **Formulário de Adição**: Interface para adicionar novos carros com detalhes como marca, modelo e ano.
+- **Lista de Carros**: Exibição de todos os carros com opções para editar e excluir.
+- **Edição e Exclusão**: Funcionalidades para atualizar ou remover carros da lista.
+- **Responsividade**: A aplicação é responsiva e funciona bem em diferentes tamanhos de tela.
