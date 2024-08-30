@@ -54,4 +54,3 @@ Para executar a aplicação **CarFactory** em sua máquina, siga os passos abaix
 - **Formulário de Adição**: Interface para adicionar novos carros com detalhes como marca, modelo e ano.
 - **Lista de Carros**: Exibição de todos os carros com opções para editar e excluir.
 - **Edição e Exclusão**: Funcionalidades para atualizar ou remover carros da lista.
-- **Responsividade**: A aplicação é responsiva e funciona bem em diferentes tamanhos de tela.
